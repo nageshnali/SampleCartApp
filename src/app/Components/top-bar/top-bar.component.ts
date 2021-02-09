@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { CartService } from 'src/app/Services/cart.service';
 import { MessageService } from 'src/app/Services/message.service';
@@ -13,7 +14,7 @@ export class TopBarComponent implements OnInit {
   subscription: Subscription;
   topBarcartItems: any = [];
   count: number = 0;
-  constructor(private cartService: CartService, private messageService: MessageService) {
+  constructor(private cartService: CartService, private messageService: MessageService, private router:Router) {
     this.subscription = this.messageService.getMessage().subscribe(message => { 
       this.isAuthenticated = message;
     });
@@ -30,5 +31,6 @@ export class TopBarComponent implements OnInit {
   }
   Logout(){
     this.messageService.clearMessages();
+    this.router.navigate(["login"]);
   }
 }

@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
       if (resData == "Valid") {
         this.isAuthenticated = true;
         this.messageService.sendMessage(this.isAuthenticated);
-        this.router.navigate(["dashboard"]);
+        this.router.navigate(["products"]);
       }
       else {
         alert("Invalid User");
