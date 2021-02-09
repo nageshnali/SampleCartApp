@@ -1,0 +1,88 @@
+[
+	   {
+		   "name": "Star Dome",
+		   "type": "Tents",
+		   "line": "Camping Equipment",
+		   "price": 10,
+		   "img": "assets/images/stardome.jpg"
+		   
+	   },
+	   {
+		   "name": "Hibernator Lite",
+		   "type": "Sleeping Bags",
+		   "line": "Camping Equipment",
+		   "price": 10,
+		   "img": "assets/images/hibernator.jpg"
+	   },
+	   {
+		   "name": "Husky Rope 50",
+		   "type": "Rope",
+		   "line": "Mountaineering Equipment",
+		   "price": 10,
+		   "img": "assets/images/husky50.jpg"
+	   },
+	   {
+		   "name": "Hailstorm Steel Irons",
+		   "type": "Irons",
+		   "line": "Golf Equipment",
+		   "price": 10,
+		   "img": "assets/images/Hailstorm.jpg"
+	   },
+	   {
+		   "name": "TrailChef Water Bag",
+		   "type": "Cooking Gear",
+		   "line": "Camping Equipment",
+		   "price": 15,
+		   "img": "assets/images/TrailChef.jpg"
+	   },
+	   {
+		   "name": "EverGlow Butane",
+		   "type": "Lanterns",
+		   "line": "Camping Equipment",
+		   "price": 15,
+		   "img": "assets/images/EverGlow.jpg"
+	   },
+	   {
+		   "name": "Mountain Man Analog",
+		   "type": "Watches",
+		   "line": "Personal Accessories",
+		   "price": 15,
+		   "img": "assets/images/Mountain.jpg"
+	   },	   
+	   {
+		   "name": "Bella",
+		   "type": "Eyewear",
+		   "line": "Personal Accessories",
+		   "price": 15,
+		   "img": "assets/images/bella.jpg"
+	   },
+	   {
+		   "name": "Sun Shelter 30",
+		   "type": "Sunscreen",
+		   "line": "Outdoor Protection",
+		   "price": 17,
+		   "img": "assets/images/Sun.jpg"
+	   },
+	   {
+		   "name": "Compact Relief Kit",
+		   "type": "First Aid",
+		   "line": "Outdoor Protection",
+		   "price": 17,
+		   "img": "assets/images/compact.jpg"
+	   },
+	   {
+		   "name": "Trail Master",
+		   "type": "Navigation",
+		   "line": "Personal Accessories",
+		   "price": 21,
+		   "img": "assets/images/trail.jpg"
+	   },
+	   {
+		   "name": "Double Edge",
+		   "type": "Knives",
+		   "line": "Personal Accessories",
+		  "price": 28,
+		   "img": "assets/images/knife.jpg"
+	   }
+	   
+	]
