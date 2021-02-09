@@ -10,6 +10,7 @@ import { TopBarComponent } from './Components/top-bar/top-bar.component';
 import { ProductAddEditComponent } from './Components/product-add-edit/product-add-edit.component';
 import { CartComponent } from './Components/cart/cart.component';
 import { ProductDetailsComponent } from './Components/product-details/product-details.component';
+import { LoginComponent } from './Components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProductDetailsComponent } from './Components/product-details/product-de
     TopBarComponent,
     ProductAddEditComponent,
     CartComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
